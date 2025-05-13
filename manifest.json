@@ -1,0 +1,10 @@
+{
+  "id": "my-books-view",
+  "name": "My books view",
+  "version": "0.0.1",
+  "author": "Your Name",
+  "description": "This plugin runs custom JavaScript for viewing books",
+  "main": "main.js",
+  "minAppVersion": "0.12.0",
+  "dependencies": ["obsidian-dataview"]
+}
