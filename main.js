@@ -58,6 +58,7 @@ class Books {
         <a href="${book.file.name}.md" class="internal-link" target="_blank" rel="noopener nofollow"><img src="${book.Обложка}" data-filename="${book.file.name}" /></a>
         ${book.Progress}
         ${additionalBookRenderFunction(book)}
+        <a href="${book.file.name}.md" target="_blank" rel="noopener nofollow">T${book.Title}</a>
         <div class="categories">${this.renderCategories(book)}</div>
         <div class="pages">${book.Pages} стр.</div>
     </div>`;
